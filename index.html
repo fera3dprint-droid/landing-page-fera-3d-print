@@ -341,7 +341,24 @@
         </p>
 
         <div class="hero-buttons">
-          <a href="#" class="btn">10% deconto na primeira compra*</a>
+          <a href="#" class="btn">10% deconto na primeira compra*</a<button id="open-btn">Quero 10% de desconto</button>
+
+<dialog id="discount-dialog">
+  <form>
+    <h3>Receba 10% de desconto</h3>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="phone">Telefone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <button type="submit">Enviar</button>
+    <button type="button" id="close-btn">Fechar</button>
+  </form>
+</dialog>>
           <a href="https://wa.me/5561986287221" class="btn-outline">Falar no WhatsApp</a>
         </div>
 
